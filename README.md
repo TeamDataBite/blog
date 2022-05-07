@@ -143,9 +143,25 @@ System analysts determines the requirements of end users, especially naive and p
 
 # Programming with SQL
 
-## Normalization steps
+## Normalization of Database
+
+Database Normalization is organizing non structured data in to structured data by reducing data redundancy and complexity of data, and also improves the integrity of the data.
+
+It is done
+
+- To Eliminate the redundant or useless data
+- To Reduce the complexity of the data
+- To Ensure the relationship between tables as well as data in the tables
+- To Ensure data dependencies and data is logically stored.
+
+### Normalization steps taken in this scenario
+
+
 
 ## Relational Database
+
+![Image](images/db.jpeg)
+
 
 ## SQL statements of table creation
 
