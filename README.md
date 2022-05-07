@@ -314,6 +314,16 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 
 ![Image](images/7-create-table-dept-staff.JPG)
 
+**Inserting Data into `department` table**
+
+![Image](images/insert-dept.JPG)
+
+
+**Inserting Data into `course` table**
+
+![Image](images/insert-course.JPG)
+
+
 ## Members:
 
 1. N M Nishad - S92087169
