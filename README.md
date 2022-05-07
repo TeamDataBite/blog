@@ -6,7 +6,12 @@ UOD is one of the leading Universities in Colombo, Srilanka. Established in 1890
 
 UOD wants to set up a database to record details about its Staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. 
 
-We will be developing a system to manage the day-to-day activities of this university.
+We will be developing a system to manage the day-to-day activities of this university based on the below scenario.
+
+## Scenario
+
+An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
+
 
 # What is an Entity Relationship Diagram
 
@@ -22,10 +27,6 @@ understand this concept.
 * It is a GUI representation of the logical structure of a Database
 
 ![Image](images/er.jpg)
-
-# Scenario
-
-An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
 
 ## What is an Entity?
 
@@ -64,6 +65,15 @@ As per the given constraints, the entity sets are as follows
 ## What is an attribute? 
 
 In relational databases, attributes are the describing characteristics or properties that define all items pertaining to a certain category applied to all cells of a column. The rows, instead, are called tuples, and represent data sets applied to a single entity to uniquely identify each item. 
+
+## What is a relationship?
+
+Any association between two entity types is called a relationship. Entities take part in the relationship. It is represented by a diamond shape.
+
+**There are three types of relationships that can exist between two entities.**
+    - One-to-One Relationship.
+    - One-to-Many or Many-to-One Relationship.
+    - Many-to-Many Relationship.
 
 ## Identifying Entities, Attribute and Relationships for the above scenario
 
