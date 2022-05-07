@@ -160,7 +160,7 @@ It is done
 
 ## Relational Database
 
-![Image](images/db.jpg)
+![Image](images/db.png)
 
 
 ## SQL statements of table creation
