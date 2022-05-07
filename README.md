@@ -21,6 +21,8 @@ understand this concept.
 * It is an easy to use graphical tool for modeling data and widely used in Database Design
 * It is a GUI representation of the logical structure of a Database
 
+![Image](images/er.jpg)
+
 # Scenario
 
 An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
