@@ -295,3 +295,14 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 4. P R T Dananjani - S92083136
 5. A F M Aslam - S92085211
 
+# Activity Log
+
+| List of Contribution | Date            | Contributors                           | Remarks/ Decision                                                                                                                                              |
+|----------------------|-----------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| First Google Meeting |                 | NishadDananjaniShamlaSharmika Aslam    | Meeting Kick off and Github will be finalized to create the blog. Shamla created the web link and shared it among the members.                                 |
+| Whats app call       |                 | Nishad Dananjani Shamla Sharmika Aslam |  Create a common google document and  provide access to all. Contribute to the Project will be monitored and end of the project it will be mentioned in the CS |
+| Zoom Meeting         | 10th April 2022 | NishadDananjaniShamlaSharmika Aslam    | Github /Wordpress updating tutorial by shamla and Start working on introduction                                                                                |
+|                      |                 |                                        |                                                                                                                                                                |
+|                      |                 |                                        |                                                                                                                                                                |
+|                      |                 |                                        |                                                                                                                                                                |
+|                      |                 |                                        |                                                                                                                                                                |
