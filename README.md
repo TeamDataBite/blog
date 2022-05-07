@@ -1,3 +1,10 @@
+# University of DataBite (UoD) Staff Management System
+
+UOD is one of the leading Universities in Colombo, Srilanka. Established in 1890. UOD provides a wide range of undergraduate and postgraduate programs  in Engineering, Technology and Business Management.
+
+UOD wants to set up a database to record details about its Staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. 
+
+We will be developing a system to manage the day-to-day activities of this university.
 
 # What is an Entity Relationship Diagram
 
@@ -12,11 +19,11 @@ understand this concept.
 * It is an easy to use graphical tool for modeling data and widely used in Database Design
 * It is a GUI representation of the logical structure of a Database
 
-# Scenario
+# Scenario change
 
 An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
 
-## Personnel involved in Database Management System
+# Actors involved in Database Management System
 
 As University of DataBite we can express the system in 3 main catogories. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a large database. 
 
@@ -26,7 +33,7 @@ The Actors on the Scene is describe the list of people who engaged to success of
 02. Database Designers
 03. End Users
 
-### Database Administrators
+## Database Administrators
 
 * Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
 * The DB Administrator is responsible for authorizing access to the database.
@@ -34,34 +41,34 @@ The Actors on the Scene is describe the list of people who engaged to success of
 * Acquiring software and hardware resources as needed.
 
 
-### Database Designers
+## Database Designers
 
 * Database Designers are responsible for identifying the data to be stored in the database.
 * Choosing appropriate structures to represent and store this data.
 * Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
 
 
-### End Users
+## End Users
 
 * End users are the people whose jobs require access to the database for querying, updating and generating reports.
 * The database primarily exists for their use.
 
 Types of end users involeved with the project
 
-Casual end user:
+### Casual end user:
 Occasionally access the database, but they may need different information each time. They are typically middle-or high-level managers or other occasional browsers.
 
-Naive or Parametric end user:
+### Naive or Parametric end user:
 Their main job function revolves around constantly querying and updating the database, using standard types of queries and updates that have been carefully programmed and tested. Bank tellers, Reservation Clerks for airlines, hotels, etc are the example of Naive end users.
 
-Sophisticated end users:
+### Sophisticated end users:
 Sophisticated end users include engineers, scientist, business analyst and others who thoroughly familiarize themselves with the facilities of the DBMS so as to implement their applications to meet their complex requirements.
 
-Stand-alone users:
+### Stand-alone users:
 They maintain personal database by using ready-made program packages that provide easy-to-use menu or graphics-based interfaces.
 
 
-Software Engineers:
+### Software Engineers:
 System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
 
 # Programming with SQL
