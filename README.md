@@ -1,4 +1,6 @@
-# What is an Entity Relationship Diagram (ER Diagram)?  
+
+# What is an Entity Relationship Diagram
+
 An ER diagram shows the relationship among entity sets. An entity set is a group of similar
 entities and these entities can have attributes. In terms of DBMS, an entity is a table or attribute
 of a table in database, so by showing relationship among tables and their attributes, ER diagram
