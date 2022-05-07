@@ -74,6 +74,7 @@ In relational databases, attributes are the describing characteristics or proper
 Any association between two entity types is called a relationship. Entities take part in the relationship. It is represented by a diamond shape.
 
 **There are three types of relationships that can exist between two entities.**
+
     - One-to-One Relationship.
     - One-to-Many or Many-to-One Relationship.
     - Many-to-Many Relationship.
