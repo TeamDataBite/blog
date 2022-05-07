@@ -54,6 +54,13 @@ As per the given constraints, the entity sets are as follows
     - A weak entity is represented by a double rectangle. 
     - The relation between one strong and one weak entity is represented by a double diamond. This relationship is also known as identifying relationships.
 
+**Difference between Strong and Weak Entity:**
+
+|              Strong Entity             |                     Weak Entity                     |
+|:--------------------------------------:|:---------------------------------------------------:|
+| Strong entity always has a primary key | While a weak entity has a partial discriminator key |
+| Does not dependent on any other entity |              Depends on a strong entity             |
+
 ## What is an attribute? 
 
 In relational databases, attributes are the describing characteristics or properties that define all items pertaining to a certain category applied to all cells of a column. The rows, instead, are called tuples, and represent data sets applied to a single entity to uniquely identify each item. 
