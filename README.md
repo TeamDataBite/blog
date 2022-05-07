@@ -26,7 +26,6 @@ understand this concept.
 * It is an easy to use graphical tool for modeling data and widely used in Database Design
 * It is a GUI representation of the logical structure of a Database
 
-![Image](images/er.jpg)
 
 ## What is an Entity?
 
@@ -88,6 +87,11 @@ Any association between two entity types is called a relationship. Entities take
 | Department     | Department ID, Department Name, Department Location, Number of Staff | Departments belongs to staff |
 | Course         | Course Name, Course ID, Department, Staff Name                       | Student Enroll to course     |
 | Student        | Student No, Student Name, and date of birth. Course name             | Student under Departments    |
+
+## ER Diagram for above Scenario
+
+
+![Image](images/er.jpeg)
 
 ## Actors involved in Database Management System
 
