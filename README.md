@@ -119,6 +119,13 @@ CREATE TABLE `dept_staff` (
 );
 ```
 
+## SQL Statement of adding data
+
+## Screenshots
+
+### Create Database
+
+![Image]("images/1-create-db.JPG")
 
 ## Members:
 
