@@ -102,6 +102,13 @@ As per the given constraints, the entity sets are as follows
     - A weak entity is represented by a double rectangle. 
     - The relation between one strong and one weak entity is represented by a double diamond. This relationship is also known as identifying relationships.
 
+## What is an attribute? 
+
+In relational databases, attributes are the describing characteristics or properties that define all items pertaining to a certain category applied to all cells of a column. The rows, instead, are called tuples, and represent data sets applied to a single entity to uniquely identify each item. 
+
+Some attributes of `department` entity is as follow
+1. dept_id (Department ID)
+2. dept_name (Department Name)
 
 
 # Programming with SQL
