@@ -44,8 +44,81 @@ CREATE TABLE `department` (
   `dept_head` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`dept_id`)
 );
+```
+
+### Creating Table `staff`
+
+Query:
 
 ```
+CREATE TABLE `staff` (
+  `staff_id` varchar(45) NOT NULL,
+  `fname` varchar(100) NOT NULL,
+  `lname` varchar(100) DEFAULT NULL,
+  `job_title` varchar(45) NOT NULL,
+  `salary` int DEFAULT NULL,
+  `s_dept_id` varchar(45) NOT NULL,
+  PRIMARY KEY (`staff_id`),
+  KEY `dept_id_idx` (`s_dept_id`),
+  CONSTRAINT `dept_id` FOREIGN KEY (`s_dept_id`) REFERENCES `department` (`dept_id`)
+);
+```
+
+### Creating Table `student`
+
+Query:
+
+```
+CREATE TABLE `student` (
+  `student_id` varchar(45) NOT NULL,
+  `fname` varchar(45) NOT NULL,
+  `lname` varchar(45) DEFAULT NULL,
+  `dob` datetime DEFAULT NULL,
+  PRIMARY KEY (`student_id`)
+);
+```
+
+### Creating Table `course`
+
+Query:
+
+```
+CREATE TABLE `course` (
+  `course_id` varchar(45) NOT NULL,
+  `course_name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`course_id`)
+);
+```
+
+### Creating Table `dept_course`
+
+Query:
+
+```
+CREATE TABLE `dept_course` (
+  `course_code` varchar(45) NOT NULL,
+  `dc_dept_id` varchar(45) NOT NULL,
+  `course_id` varchar(45) NOT NULL,
+  PRIMARY KEY (`course_code`),
+  KEY `course_id_idx` (`course_id`),
+  CONSTRAINT `course_id` FOREIGN KEY (`course_id`) REFERENCES `course` (`course_id`)
+);
+
+```
+
+### Creating Table `dept_staff`
+
+Query:
+
+```
+CREATE TABLE `dept_staff` (
+  `dept_id` varchar(45) NOT NULL,
+  `staff_id` varchar(45) NOT NULL,
+  KEY `staff_id_idx` (`staff_id`),
+  CONSTRAINT `staff_id` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`staff_id`)
+);
+```
+
 
 ## Members:
 
