@@ -284,7 +284,7 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("EX3266","In
 INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Programming with Python");
 ```
 
-**Inserting Data into `course` table**
+**Inserting Data into `staff` table**
 
 Query: 
 ```
