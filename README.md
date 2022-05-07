@@ -57,10 +57,13 @@ As per the given constraints, the entity sets are as follows
 
 **Difference between Strong and Weak Entity:**
 
-|              Strong Entity             |                     Weak Entity                     |
-|:--------------------------------------:|:---------------------------------------------------:|
-| Strong entity always has a primary key | While a weak entity has a partial discriminator key |
-| Does not dependent on any other entity |              Depends on a strong entity             |
+| Strong entity                                                          | Weak entity                                                                                   |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Strong entity always has a primary key.                                | While a weak entity has a partial discriminator key.                                          |
+| Strong entity is not dependent on any other entity.                    | Weak entity depends on a strong entity.                                                       |
+| Strong entity is represented by a single rectangle                     | Weak entity is represented by a double rectangle.                                             |
+| Two strong entity’s relationships are represented by a single diamond. | While the relation between one strong and one weak entity is represented by a double diamond. |
+| Strong entities have either total participation or not.                | While weak entity always has total participation                                              |
 
 ## What is an attribute? 
 
