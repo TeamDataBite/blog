@@ -127,6 +127,30 @@ CREATE TABLE `dept_staff` (
 
 ![Image](images/1-create-db.JPG)
 
+### Creating Table `department`
+
+![Image](images/2-create-table-dept.JPG)
+
+### Creating Table `staff`
+
+![Image](images/3-create-table-staff.JPG)
+
+### Creating Table `student`
+
+![Image](images/4-create-table-course.JPG)
+
+### Creating Table `course`
+
+![Image](images/5-create-table-student.JPG)
+
+### Creating Table `dept_course`
+
+![Image](images/6-create-table-dept-course.JPG)
+
+### Creating Table `dept_staff`
+
+![Image](images/7-create-table-dept-staff.JPG)
+
 ## Members:
 
 1. Shamla Zarook
