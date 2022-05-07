@@ -79,7 +79,7 @@ The Actors on the Scene is describe the list of people who engaged to success of
 02. Database Designers
 03. End Users
 
-### Database Administrators
+**Database Administrators**
 
 * Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
 * The DB Administrator is responsible for authorizing access to the database.
@@ -87,34 +87,34 @@ The Actors on the Scene is describe the list of people who engaged to success of
 * Acquiring software and hardware resources as needed.
 
 
-### Database Designers
+**Database Designers**
 
 * Database Designers are responsible for identifying the data to be stored in the database.
 * Choosing appropriate structures to represent and store this data.
 * Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
 
 
-### End Users
+**End Users**
 
 * End users are the people whose jobs require access to the database for querying, updating and generating reports.
 * The database primarily exists for their use.
 
 **Types of end users involved with the project**
 
-### Casual end user:
+**Casual end user:**
 Occasionally access the database, but they may need different information each time. They are typically middle-or high-level managers or other occasional browsers.
 
-### Naive or Parametric end user:
+**Naive or Parametric end user:**
 Their main job function revolves around constantly querying and updating the database, using standard types of queries and updates that have been carefully programmed and tested. Bank tellers, Reservation Clerks for airlines, hotels, etc are the example of Naive end users.
 
-### Sophisticated end users:
+**Sophisticated end users:**
 Sophisticated end users include engineers, scientist, business analyst and others who thoroughly familiarize themselves with the facilities of the DBMS so as to implement their applications to meet their complex requirements.
 
-### Stand-alone users:
+**Stand-alone users:**
 They maintain personal database by using ready-made program packages that provide easy-to-use menu or graphics-based interfaces.
 
 
-### Software Engineers:
+**Software Engineers:**
 System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
 
 # Programming with SQL
@@ -222,7 +222,7 @@ CREATE TABLE `dept_staff` (
 
 ## SQL Statement of adding data
 
-### Inserting Data into `course` table
+**Inserting Data into `course` table**
 
 Query: 
 ```
@@ -235,31 +235,31 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 
 ## Screenshots
 
-### Create Database
+**Create Database**
 
 ![Image](images/1-create-db.JPG)
 
-### Creating Table `department`
+**Creating Table `department`**
 
 ![Image](images/2-create-table-dept.JPG)
 
-### Creating Table `staff`
+**Creating Table `staff`**
 
 ![Image](images/3-create-table-staff.JPG)
 
-### Creating Table `student`
+**Creating Table `student`**
 
 ![Image](images/4-create-table-course.JPG)
 
-### Creating Table `course`
+**Creating Table `course`**
 
 ![Image](images/5-create-table-student.JPG)
 
-### Creating Table `dept_course`
+**Creating Table `dept_course`**
 
 ![Image](images/6-create-table-dept-course.JPG)
 
-### Creating Table `dept_staff`
+**Creating Table `dept_staff`**
 
 ![Image](images/7-create-table-dept-staff.JPG)
 
