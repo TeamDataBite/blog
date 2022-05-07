@@ -284,6 +284,24 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("EX3266","In
 INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Programming with Python");
 ```
 
+**Inserting Data into `staff` table**
+
+Query: 
+```
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG001","Quamar","Silva","Lecturer","369967");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG002","Keelie","David","Lecturer","190735");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG003","Portia","Case","Dean","248805");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG004","Declan","Haney","Senior Lecturer","821995");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("3DFG01","Regan","Espinoza","Lecturer","311896");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG006","Kristen","Harrington","Lecturer","173134");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG007","Dane","Burns","Senior Lecturer","563468");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG008","Marcia","Green","Lecturer","271592");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG009","Imelda","Ward","Lecturer","410234");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG034","Charde","Cooke","Professor","927431");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG054","Brett","Mcbride","Lecturer","953586");
+INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG067","Dustin","Clayton","Lecturer","514567");
+```
+
 ## Screenshots
 
 **Create Database**
@@ -323,6 +341,9 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 
 ![Image](images/insert-course.JPG)
 
+**Inserting Data into `staff` table**
+
+![Image](images/insert-staff.JPG)
 
 ## Members:
 
