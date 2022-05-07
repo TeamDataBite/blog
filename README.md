@@ -157,11 +157,8 @@ CREATE TABLE `staff` (
   `fname` varchar(100) NOT NULL,
   `lname` varchar(100) DEFAULT NULL,
   `job_title` varchar(45) NOT NULL,
-  `salary` int DEFAULT NULL,
-  `s_dept_id` varchar(45) NOT NULL,
-  PRIMARY KEY (`staff_id`),
-  KEY `dept_id_idx` (`s_dept_id`),
-  CONSTRAINT `dept_id` FOREIGN KEY (`s_dept_id`) REFERENCES `department` (`dept_id`)
+  `salary` int DEFAULT NUL
+  PRIMARY KEY (`staff_id`)
 );
 ```
 
@@ -216,8 +213,11 @@ CREATE TABLE `dept_staff` (
   `dept_id` varchar(45) NOT NULL,
   `staff_id` varchar(45) NOT NULL,
   KEY `staff_id_idx` (`staff_id`),
+  KEY `dept_id_idx` (`dept_id`),
+  CONSTRAINT `dept_id` FOREIGN KEY (`dept_id`) REFERENCES `department` (`dept_id`),
   CONSTRAINT `staff_id` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`staff_id`)
 );
+
 ```
 
 ## SQL Statement of adding data
