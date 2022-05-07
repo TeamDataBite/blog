@@ -125,7 +125,7 @@ CREATE TABLE `dept_staff` (
 
 ### Create Database
 
-![Image]("images/1-create-db.JPG")
+![Image](images/1-create-db.JPG)
 
 ## Members:
 
