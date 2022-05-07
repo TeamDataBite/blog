@@ -1,3 +1,5 @@
+![Image](images/databite.jpeg)
+
 # University of DataBite (UoD) Staff Management System
 
 UOD is one of the leading Universities in Colombo, Srilanka. Established in 1890. UOD provides a wide range of undergraduate and postgraduate programs  in Engineering, Technology and Business Management.
