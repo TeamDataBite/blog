@@ -75,9 +75,10 @@ Any association between two entity types is called a relationship. Entities take
 
 **There are three types of relationships that can exist between two entities.**
 
-    - One-to-One Relationship.
-    - One-to-Many or Many-to-One Relationship.
-    - Many-to-Many Relationship.
+- One-to-One Relationship.
+- One-to-Many or Many-to-One Relationship.
+- Many-to-Many Relationship.
+    
 
 ## Identifying Entities, Attribute and Relationships for the above scenario
 
