@@ -1,3 +1,4 @@
+- text in red University Of DataBite West Colombo (UOD)
 ![Image](images/databite.jpeg)
 
 # University of DataBite (UoD) Staff Management System
