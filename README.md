@@ -262,6 +262,17 @@ CREATE TABLE `dept_staff` (
 
 ## SQL Statement of adding data
 
+**Inserting Data into `department` table**
+
+Query: 
+```
+INSERT INTO `uod_db`.`department` (`dept_id`, `dept_name`,`dept_location`,`no_of_staff`,`dept_head`) VALUES("EE", "Dept. of Electronic Eng.", "[object Object]", "54", "1FG001");
+INSERT INTO `uod_db`.`department` (`dept_id`, `dept_name`,`dept_location`,`no_of_staff`,`dept_head`) VALUES("CE", "Dept. of Civil Engineering", "[object Object]", "99", "1FG002");
+INSERT INTO `uod_db`.`department` (`dept_id`, `dept_name`,`dept_location`,`no_of_staff`,`dept_head`) VALUES("VA", "Dept. of Visual Arts", "[object Object]", "63", "1FG003");
+INSERT INTO `uod_db`.`department` (`dept_id`, `dept_name`,`dept_location`,`no_of_staff`,`dept_head`) VALUES("SS", "Dept. of Social Sciences", "[object Object]", "13", "1FG004");
+INSERT INTO `uod_db`.`department` (`dept_id`, `dept_name`,`dept_location`,`no_of_staff`,`dept_head`) VALUES("ICT", "Dept. of ICT", "[object Object]", "85", "1FG006");
+```
+
 **Inserting Data into `course` table**
 
 Query: 
@@ -302,6 +313,16 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 **Creating Table `dept_staff`**
 
 ![Image](images/7-create-table-dept-staff.JPG)
+
+**Inserting Data into `department` table**
+
+![Image](images/insert-dept.JPG)
+
+
+**Inserting Data into `course` table**
+
+![Image](images/insert-course.JPG)
+
 
 ## Members:
 
