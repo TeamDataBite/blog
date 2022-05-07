@@ -16,6 +16,36 @@ understand this concept.
 
 An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
 
+# Programming with SQL
+
+## Normalization steps
+
+## Relational Database
+
+## SQL statements of table creation
+
+### Creating Database
+
+Query:
+
+```
+CREATE DATABASE `uod_db`;
+```
+### Creating Table `department`
+
+Query:
+
+```
+CREATE TABLE `department` (
+  `dept_id` varchar(45) NOT NULL,
+  `dept_name` varchar(45) DEFAULT NULL,
+  `dept_location` varchar(100) DEFAULT NULL,
+  `no_of_staff` int DEFAULT NULL,
+  `dept_head` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`dept_id`)
+);
+
+```
 
 ## Members:
 
