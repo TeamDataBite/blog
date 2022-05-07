@@ -1,4 +1,3 @@
-University Of DataBite West Colombo (UOD)
 ![Image](images/databite.jpeg)
 
 # University of DataBite (UoD) Staff Management System
@@ -82,14 +81,14 @@ System analysts determines the requirements of end users, especially naive and p
 
 ## SQL statements of table creation
 
-### Creating Database
+**Creating Database**
 
 Query:
 
 ```
 CREATE DATABASE `uod_db`;
 ```
-### Creating Table `department`
+**Creating Table `department`**
 
 Query:
 
@@ -104,7 +103,7 @@ CREATE TABLE `department` (
 );
 ```
 
-### Creating Table `staff`
+**Creating Table `staff`**
 
 Query:
 
@@ -122,7 +121,7 @@ CREATE TABLE `staff` (
 );
 ```
 
-### Creating Table `student`
+**Creating Table `student`**
 
 Query:
 
@@ -136,7 +135,7 @@ CREATE TABLE `student` (
 );
 ```
 
-### Creating Table `course`
+**Creating Table `course`**
 
 Query:
 
@@ -148,7 +147,7 @@ CREATE TABLE `course` (
 );
 ```
 
-### Creating Table `dept_course`
+**Creating Table `dept_course`**
 
 Query:
 
@@ -164,7 +163,7 @@ CREATE TABLE `dept_course` (
 
 ```
 
-### Creating Table `dept_staff`
+**Creating Table `dept_staff`**
 
 Query:
 
