@@ -27,54 +27,6 @@ understand this concept.
 
 An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
 
-# Actors involved in Database Management System
-
-As University of DataBite we can express the system in 3 main catogories. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a large database. 
-
-The Actors on the Scene is describe the list of people who engaged to success of this, there jobs to involve the day-to-day use of a large database.
-
-01. Database Administrators
-02. Database Designers
-03. End Users
-
-## Database Administrators
-
-* Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
-* The DB Administrator is responsible for authorizing access to the database.
-* Coordinating and monitoring its use.
-* Acquiring software and hardware resources as needed.
-
-
-## Database Designers
-
-* Database Designers are responsible for identifying the data to be stored in the database.
-* Choosing appropriate structures to represent and store this data.
-* Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
-
-
-## End Users
-
-* End users are the people whose jobs require access to the database for querying, updating and generating reports.
-* The database primarily exists for their use.
-
-Types of end users involeved with the project
-
-### Casual end user:
-Occasionally access the database, but they may need different information each time. They are typically middle-or high-level managers or other occasional browsers.
-
-### Naive or Parametric end user:
-Their main job function revolves around constantly querying and updating the database, using standard types of queries and updates that have been carefully programmed and tested. Bank tellers, Reservation Clerks for airlines, hotels, etc are the example of Naive end users.
-
-### Sophisticated end users:
-Sophisticated end users include engineers, scientist, business analyst and others who thoroughly familiarize themselves with the facilities of the DBMS so as to implement their applications to meet their complex requirements.
-
-### Stand-alone users:
-They maintain personal database by using ready-made program packages that provide easy-to-use menu or graphics-based interfaces.
-
-
-### Software Engineers:
-System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
-
 ## What is an Entity?
 
 An entity is an object that exists. It doesn't have to do anything; it just has to exist. In database administration, an entity can be a single thing, person, place, or object. Data can be stored about such entities. A design tool that allows database administrators to view the relationships between several entities is called the entity relationship diagram (ERD).
@@ -110,6 +62,53 @@ Some attributes of `department` entity is as follow
 1. dept_id (Department ID)
 2. dept_name (Department Name)
 
+## Actors involved in Database Management System
+
+As University of DataBite we can express the system in 3 main catogories. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a large database. 
+
+The Actors on the Scene is describe the list of people who engaged to success of this, there jobs to involve the day-to-day use of a large database.
+
+01. Database Administrators
+02. Database Designers
+03. End Users
+
+### Database Administrators
+
+* Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
+* The DB Administrator is responsible for authorizing access to the database.
+* Coordinating and monitoring its use.
+* Acquiring software and hardware resources as needed.
+
+
+### Database Designers
+
+* Database Designers are responsible for identifying the data to be stored in the database.
+* Choosing appropriate structures to represent and store this data.
+* Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
+
+
+### End Users
+
+* End users are the people whose jobs require access to the database for querying, updating and generating reports.
+* The database primarily exists for their use.
+
+**Types of end users involved with the project**
+
+### Casual end user:
+Occasionally access the database, but they may need different information each time. They are typically middle-or high-level managers or other occasional browsers.
+
+### Naive or Parametric end user:
+Their main job function revolves around constantly querying and updating the database, using standard types of queries and updates that have been carefully programmed and tested. Bank tellers, Reservation Clerks for airlines, hotels, etc are the example of Naive end users.
+
+### Sophisticated end users:
+Sophisticated end users include engineers, scientist, business analyst and others who thoroughly familiarize themselves with the facilities of the DBMS so as to implement their applications to meet their complex requirements.
+
+### Stand-alone users:
+They maintain personal database by using ready-made program packages that provide easy-to-use menu or graphics-based interfaces.
+
+
+### Software Engineers:
+System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
 
 # Programming with SQL
 
