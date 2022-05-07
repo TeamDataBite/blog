@@ -65,9 +65,14 @@ As per the given constraints, the entity sets are as follows
 
 In relational databases, attributes are the describing characteristics or properties that define all items pertaining to a certain category applied to all cells of a column. The rows, instead, are called tuples, and represent data sets applied to a single entity to uniquely identify each item. 
 
-Some attributes of `department` entity is as follow
-1. dept_id (Department ID)
-2. dept_name (Department Name)
+## Identifying Entities, Attribute and Relationships for the above scenario
+
+| Entity         | Attributes                                                           | Relationship                 |
+|----------------|----------------------------------------------------------------------|------------------------------|
+| Academic Staff | Staff identity number, name, job title, Department and salary        | Staff Belong to Departments  |
+| Department     | Department ID, Department Name, Department Location, Number of Staff | Departments belongs to staff |
+| Course         | Course Name, Course ID, Department, Staff Name                       | Student Enroll to course     |
+| Student        | Student No, Student Name, and date of birth. Course name             | Student under Departments    |
 
 ## Actors involved in Database Management System
 
@@ -265,44 +270,9 @@ INSERT INTO `uod_db`.`course` (`course_id`, `course_name`) VALUES  ("PF3454","Pr
 
 ## Members:
 
-1. Shamla Zarook
-2. Sharmika
-3. Aslam
-4. Nishad  
-5. Thakshila
+1. N M Nishad - S92087169
+2. M Z Shamla - S92083773
+3. M Sharmika - S92086026
+4. P R T Dananjani - S92083136
+5. A F M Aslam - S92085211
 
-You can use the [editor on GitHub](https://github.com/TeamDataBite/blog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-t
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TeamDataBite/blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
