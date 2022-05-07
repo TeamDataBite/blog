@@ -92,15 +92,15 @@ As per the given constraints, the entity sets are as follows
 ### Types of Entities
 
 1. Strong Entities
-  - A strong entity is not dependent on any other entity in the schema. A strong entity will always have a primary key. 
-  - Strong entities are represented by a single rectangle.
-  - The relationship of two strong entities is represented by a single diamond. 
-  - Various strong entities, when combined together, create a strong entity set. 
+    - A strong entity is not dependent on any other entity in the schema. A strong entity will always have a primary key. 
+    - Strong entities are represented by a single rectangle.
+    - The relationship of two strong entities is represented by a single diamond. 
+    - Various strong entities, when combined together, create a strong entity set. 
 
 2. Weak entity
-  - A weak entity is dependent on a strong entity to ensure its existence. Unlike a strong entity, a weak entity does not have any primary key. It instead has a partial discriminator key. 
-  - A weak entity is represented by a double rectangle. 
-  - The relation between one strong and one weak entity is represented by a double diamond. This relationship is also known as identifying relationships.
+    - A weak entity is dependent on a strong entity to ensure its existence. Unlike a strong entity, a weak entity does not have any primary key. It instead has a partial discriminator key. 
+    - A weak entity is represented by a double rectangle. 
+    - The relation between one strong and one weak entity is represented by a double diamond. This relationship is also known as identifying relationships.
 
 
 
