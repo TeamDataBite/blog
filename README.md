@@ -26,7 +26,7 @@ The Actors on the Scene is describe the list of people who engaged to success of
 02. Database Designers
 03. End Users
 
-# Database Administrators
+### Database Administrators
 
 * Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
 * The DB Administrator is responsible for authorizing access to the database.
@@ -34,14 +34,14 @@ The Actors on the Scene is describe the list of people who engaged to success of
 * Acquiring software and hardware resources as needed.
 
 
-# Database Designers
+### Database Designers
 
 * Database Designers are responsible for identifying the data to be stored in the database.
 * Choosing appropriate structures to represent and store this data.
 * Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
 
 
-# End Users
+### End Users
 
 * End users are the people whose jobs require access to the database for querying, updating and generating reports.
 * The database primarily exists for their use.
