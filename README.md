@@ -302,6 +302,54 @@ INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VAL
 INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VALUES("1FG067","Dustin","Clayton","Lecturer","514567");
 ```
 
+**Inserting Data into `student` table**
+
+```
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3571","Marcia","Green","1995-04-24 04:15:12");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("7488","Imelda","Ward","1995-12-01 03:30:25");       
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("7867","Charde","Cooke","1996-01-14 16:55:12");      
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("6486","Brett","Mcbride","2000-05-27 00:26:04");     
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3155","Dustin","Clayton","1996-03-05 14:12:31");    
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3007","Kylie","Henderson","1998-11-27 04:53:39");   
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("5394","Macaulay","Curry","1998-06-19 03:38:45");    
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4289","Patience","Macdonald","1995-04-29 16:34:22");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3401","Kylee","Walters","1996-07-30 16:59:23");     
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("5373","Castor","Avery","1996-04-28 14:38:04");      
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("5507","Illiana","Dunlap","2001-04-08 09:27:13");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("7218","Phyllis","Chase","2000-10-02 06:44:18");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3247","Rachel","Knox","1997-08-10 19:54:40");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9608","Nigel","Holmes","2001-06-09 22:53:06");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("8586","Quynn","Wilkerson","2000-10-15 22:01:17");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("1776","Lee","Strickland","2001-12-18 04:00:50");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("8398","Simon","Johnston","1999-07-28 19:16:06");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("1455","Eric","Vargas","2000-12-20 14:09:22");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9283","William","Jordan","1997-12-29 13:48:14");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9593","Yoko","Hardin","2001-05-12 18:54:49");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("8416","James","Williamson","1998-12-30 23:40:05");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3322","Ivy","Sampson","1995-09-29 04:55:17");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("1920","Fatima","Aguirre","1996-01-18 22:40:15");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4338","Nita","Gomez","1995-12-08 00:49:27");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("2414","Ciaran","Armstrong","1996-06-11 04:24:31");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("7081","Graiden","Dillard","1998-10-29 00:12:20");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("8873","Claudia","Mcgowan","2000-10-22 13:06:04");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("2649","Jescie","Conley","1997-05-26 12:39:10");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3969","Daquan","Good","1996-09-27 23:46:42");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4607","Nita","Cherry","1999-08-14 00:52:13");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4119","Whitney","Levy","2000-04-25 21:32:54");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("5556","Moses","Floyd","1998-07-06 05:57:53");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("1771","Molly","Cook","1999-06-22 09:56:08");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("6946","Heather","Ortiz","1995-06-29 17:16:47");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4497","Regina","Keith","1997-08-05 01:29:03");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9516","Vaughan","Jensen","2000-03-31 20:18:00");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9947","Tanek","Willis","1996-12-13 18:40:51");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("8292","Ariana","Puckett","1998-11-12 21:23:44");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("4616","Jaden","Patton","2000-03-19 04:56:17");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("9905","Cody","Mccall","1999-06-25 07:00:14");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("5091","Hilary","Williamson","1999-02-06 21:13:25");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("3827","Tarik","Donovan","1999-05-02 08:11:21");
+INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("6718","Alec","Bowen","1999-03-20 15:56:35");
+```
+
 ## Screenshots
 
 **Create Database**
@@ -344,6 +392,10 @@ INSERT INTO `uod_db`.`staff`(`staff_id`,`fname`,`lname`,`job_title`,`salary`)VAL
 **Inserting Data into `staff` table**
 
 ![Image](images/insert-staff.JPG)
+
+**Inserting Data into `student` table**
+
+![Image](images/insert-student.JPG)
 
 ## Members:
 
