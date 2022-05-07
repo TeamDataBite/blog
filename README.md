@@ -75,6 +75,35 @@ They maintain personal database by using ready-made program packages that provid
 ### Software Engineers:
 System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
 
+## What is an Entity?
+
+An entity is an object that exists. It doesn't have to do anything; it just has to exist. In database administration, an entity can be a single thing, person, place, or object. Data can be stored about such entities. A design tool that allows database administrators to view the relationships between several entities is called the entity relationship diagram (ERD).
+An entity is represented as Rectangle in an ER diagram.
+
+For example of our scenario - In the following ER diagram we have two entities Students and University and these two entities have many to one relationship as many students study in a single college. We will read more about relationships later, for now focus on entities.
+
+The entity set has multiple instances in a given scenario.
+As per the given constraints, the entity sets are as follows
+- Department
+- Course
+- Student
+- Staff
+
+### Types of Entities
+
+1. Strong Entities
+  - A strong entity is not dependent on any other entity in the schema. A strong entity will always have a primary key. 
+  - Strong entities are represented by a single rectangle.
+  - The relationship of two strong entities is represented by a single diamond. 
+  - Various strong entities, when combined together, create a strong entity set. 
+
+2. Weak entity
+  - A weak entity is dependent on a strong entity to ensure its existence. Unlike a strong entity, a weak entity does not have any primary key. It instead has a partial discriminator key. 
+  - A weak entity is represented by a double rectangle. 
+  - The relation between one strong and one weak entity is represented by a double diamond. This relationship is also known as identifying relationships.
+
+
+
 # Programming with SQL
 
 ## Normalization steps
