@@ -98,12 +98,21 @@ Any association between two entity types is called a relationship. Entities take
 |----------------|----------------------------------------------------------------------|------------------------------|
 | Academic Staff | Staff identity number, name, job title, Department and salary        | Staff Belong to Departments  |
 | Department     | Department ID, Department Name, Department Location, Number of Staff | Departments belongs to staff |
-| Course         | Course Name, Course ID, Department, Staff Name                       | department Has Course        |
+| Course         | Course Name, Course ID, Department, Staff Name                       | Department Has Course        |
 | Student        | Student No, Student Name, and date of birth. Course name             | Student Enrol to Course      |
 
 ## ER Diagram for above Scenario
 
+Considering Above Identification of Entities and Attributes inital Disgn phase Entity Realtionshio (ER) Diagram created as below.
 
+*Assamption Made for this  ER Diagram As Below* 
+
+* Only Limited entities and attribute considered for the above scenario.
+* For the staf entity we used only Acadamic set of Staf.
+* The Department cordinator dirived as a from one of the staf.
+* In the Department considered Acadamic set of details.
+
+#Entity Realtionship Diagram of UOD databse
 ![Image](images/er.jpeg)
 
 ## Actors involved in Database Management System
