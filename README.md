@@ -49,6 +49,9 @@ As per the given constraints, the entity sets are as follows
     - Strong entities are represented by a single rectangle.
     - The relationship of two strong entities is represented by a single diamond. 
     - Various strong entities, when combined together, create a strong entity set. 
+  
+  Example of our scenario A student entity can exist without needing any other entity in the schema or a course entity can exist without needing any other entity in the schema. A Strong entity is nothing but an entity set  having a primary key attribute or a table that consists of a primary key column so, acording to this Student entity is a strong entity because it consists of a primary key called student id which is enough for accessing  each record uniquely
+In the same way, the course entity contains of course ID attribute which is capable of uniquely accessing each row.
 
 2. Weak entity
     - A weak entity is dependent on a strong entity to ensure its existence. Unlike a strong entity, a weak entity does not have any primary key. It instead has a partial discriminator key. 
@@ -68,6 +71,11 @@ As per the given constraints, the entity sets are as follows
 ## What is an attribute? 
 
 In relational databases, attributes are the describing characteristics or properties that define all items pertaining to a certain category applied to all cells of a column. The rows, instead, are called tuples, and represent data sets applied to a single entity to uniquely identify each item. 
+
+1. Staff - Staff identity number, name, job title, Department and salary      
+2. Department - Department ID, Department Name, Department Location, Number of Staff 
+3. Course  - Course Name, Course ID, Department, Staff Name                    
+4. Student - Student No, Student Name, and date of birth. Course name         
 
 ## What is a relationship?
 
