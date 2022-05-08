@@ -184,7 +184,7 @@ Data base administrator plying key roll of the University database from the deve
 *Student, Stafs are maint two catogaries in the our scenario.
 *Interface different by the user and accessability will be limited as university developer requirnment.
 
-# Functional Requirements of the system
+**Functional Requirements of the system**
 
 *Business Rules
 *Transaction corrections, adjustments, and cancellations
@@ -197,7 +197,7 @@ Data base administrator plying key roll of the University database from the deve
 *Reporting Requirements
 *Data backup
 
-#Non-Functional Requirements of the system
+**Non-Functional Requirements of the system**
 
 *Performance.
 *Volumetric.
