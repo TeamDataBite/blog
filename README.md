@@ -121,7 +121,7 @@ Considering Above Identification of Entities and Attributes inital Disgn phase E
 
 **Entity Realtionship Diagram of UOD databse**
 
-![Image](images/er.jpeg)
+![Image](images/ERD2.jpeg)
 
 ## Actors involved in Database Management System of UOD
 
