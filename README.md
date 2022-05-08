@@ -397,6 +397,23 @@ INSERT INTO `uod_db`.`student` (`student_id`,`fname`,`lname`,`dob`)VALUES("6718"
 
 ![Image](images/insert-student.JPG)
 
+## Querying data
+
+### SELECT Queries
+
+Retrieving course information from `course` table
+
+Query:
+```
+SELECT `course`.`course_id`,
+    `course`.`course_name`
+FROM `uod_db`.`course` WHERE course_id="EX3266";
+```
+
+![image](https://user-images.githubusercontent.com/97063542/167276272-799369b7-0362-49d7-a2e8-c110da84c830.png)
+
+
+
 ## Members:
 
 1. N M Nishad - S92087169
