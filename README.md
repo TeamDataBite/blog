@@ -184,6 +184,32 @@ Data base administrator plying key roll of the University database from the deve
 *Student, Stafs are maint two catogaries in the our scenario.
 *Interface different by the user and accessability will be limited as university developer requirnment.
 
+# Functional Requirements of the system
+
+*Business Rules
+*Transaction corrections, adjustments, and cancellations
+*Administrative functions
+*Authentication
+*Authorization levels
+*Audit Tracking
+*External Interfaces
+*Certification Requirements
+*Reporting Requirements
+*Data backup
+
+#Non-Functional Requirements of the system
+
+*Performance.
+*Volumetric.
+*Scalability.
+*Capacity.
+*Availability.
+*Reliability.
+*Recoverability.
+*Maintainability.
+*Serviceability.
+
+
 # Programming with SQL
 
 ## Normalization of Database
