@@ -105,14 +105,14 @@ Any association between two entity types is called a relationship. Entities take
 
 Considering Above Identification of Entities and Attributes inital Disgn phase Entity Realtionshio (ER) Diagram created as below.
 
-*Assamption Made for this  ER Diagram As Below* 
+* Assamption Made for this  ER Diagram As Below * 
 
 * Only Limited entities and attribute considered for the above scenario.
 * For the staf entity we used only Acadamic set of Staf.
 * The Department cordinator dirived as a from one of the staf.
 * In the Department considered Acadamic set of details.
 
-#Entity Realtionship Diagram of UOD databse
+# Entity Realtionship Diagram of UOD databse
 ![Image](images/er.jpeg)
 
 ## Actors involved in Database Management System
