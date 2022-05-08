@@ -105,21 +105,22 @@ Any association between two entity types is called a relationship. Entities take
 
 Considering Above Identification of Entities and Attributes inital Disgn phase Entity Realtionshio (ER) Diagram created as below.
 
-* Assamption Made for this  ER Diagram As Below * 
+### Assamption Made for this  ER Diagram As Below 
 
 * Only Limited entities and attribute considered for the above scenario.
 * For the staf entity we used only Acadamic set of Staf.
 * The Department cordinator dirived as a from one of the staf.
 * In the Department considered Acadamic set of details.
 
-# Entity Realtionship Diagram of UOD databse
+### Entity Realtionship Diagram of UOD databse
+
 ![Image](images/er.jpeg)
 
-## Actors involved in Database Management System
+## Actors involved in Database Management System UOD
 
-As University of DataBite we can express the system in 3 main catogories. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a large database. 
+As University of DataBite we can express the Actors or database contributers are catogoriesed by 3 main topics. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a UOD staff maintaing Database.
 
-The Actors on the Scene is describe the list of people who engaged to success of this, there jobs to involve the day-to-day use of a large database.
+The Actors on the Scene is describe the list of people who engaged to success of UOD database, there jobs to involve the day-to-day use and development of Database.
 
 01. Database Administrators
 02. Database Designers
