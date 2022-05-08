@@ -49,6 +49,7 @@ As per the given constraints, the entity sets are as follows
 - Student
 - Staff
 
+
 ### Types of Entities
 
 1. Strong Entities
