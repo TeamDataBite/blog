@@ -32,7 +32,8 @@ understand this concept.
 An entity is an object that exists. It doesn't have to do anything; it just has to exist. In database administration, an entity can be a single thing, person, place, or object. Data can be stored about such entities. A design tool that allows database administrators to view the relationships between several entities is called the entity relationship diagram (ERD).
 An entity is represented as Rectangle in an ER diagram.
 
-For example of our scenario - In the following ER diagram we have two entities Students and University and these two entities have many to one relationship as many students study in a single college. We will read more about relationships later, for now focus on entities.
+For example of our scenario - In the following ER diagram we have four entities Student, Course, Department and Staff and these four entities have relationships:
+We will read more about relationships later, for now focus on entities.
 
 The entity set has multiple instances in a given scenario.
 As per the given constraints, the entity sets are as follows
@@ -74,11 +75,15 @@ Any association between two entity types is called a relationship. Entities take
 
 **There are three types of relationships that can exist between two entities.**
 
-- One-to-One Relationship.
-- One-to-Many or Many-to-One Relationship.
-- Many-to-Many Relationship.
-    
+1. One to many relationship - Each department has many Staff - A staff can work in only one department. this relationship is single-valued for staff. On the other hand, one department can have many staff; the relationship is multi-valued for departments. The relationship between staff (single-valued) and departments (multi-valued) is a one-to-many relationship.
 
+2. Many to many relationship - Many students enrol many courses - A student and a course are entities, while an enrollment is a relationship between a student and a course.The Student and Course have a Many-to-Many relationship marked by * multiplicity. It means one Student can enroll for many Courses and also, one Course can be taught to many Students. The database includes the StudentCourse joining table which includes the primary key of both the tables ( Student and Course tables).
+
+3. One to one relationship - A staff manage one department - one department can have at the most one staff and one staff can be assigned to only one department.
+                           - A staff lecturing one course - Each course is offered by one or more teachers and Each teacher offers one or more courses. Each course is offered by one or more teachers and Each teacher offers one or more courses.
+                           
+
+    
 ## Identifying Entities, Attribute and Relationships for the above scenario
 
 | Entity         | Attributes                                                           | Relationship                 |
