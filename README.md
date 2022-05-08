@@ -156,6 +156,16 @@ It is done
 
 ### Normalization steps taken in this scenario
 
+**Dataset for `course`**
+
+| course_id | course_name | dept_id |
+| --- | --- | --- |
+| EE3242 | Electronic Circuitry and Programming | EE |
+| LEE3424 | English Language for Beginner | SS | 
+| EX3266 | Information System |  ICT |
+| PF3454 | Programming with Python |  EE |
+| EE3453 | Software Development Project | ICT |
+
 
 
 ## Relational Database
