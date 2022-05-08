@@ -412,7 +412,28 @@ FROM `uod_db`.`course` WHERE course_id="EX3266";
 
 ![image](https://user-images.githubusercontent.com/97063542/167276272-799369b7-0362-49d7-a2e8-c110da84c830.png)
 
+### UPDATE Queries
 
+Updating `department name` in `department` table
+
+Query:
+```
+UPDATE `uod_db`.`department`
+SET
+`dept_name` = "Dept. of IT"
+WHERE `dept_id` = "ICT";
+
+```
+![image](https://user-images.githubusercontent.com/97063542/167276403-2b3d48d9-cc85-48dc-af94-19eeed04b037.png)
+
+### DELETE Queries
+
+Delete student with name `` from `student` table
+
+Query:
+```
+
+```
 
 ## Members:
 
