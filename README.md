@@ -428,12 +428,15 @@ WHERE `dept_id` = "ICT";
 
 ### DELETE Queries
 
-Delete student with name `` from `student` table
+Delete student by `student_id` from `student` table
 
 Query:
 ```
-
+DELETE FROM `uod_db`.`student`
+WHERE student_id="5373";
 ```
+![image](https://user-images.githubusercontent.com/97063542/167276524-4d532350-9046-446b-9bbb-00239f328707.png)
+
 
 ## Members:
 
