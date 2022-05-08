@@ -1,6 +1,6 @@
 ![Image](images/databite.jpeg)
 
-# University of DataBite (UoD) Staff Management System
+# University of DataBite (UoD) Staff and Student Management System
 
 UOD is one of the leading Universities in Colombo, Srilanka. Established in 1890. UOD provides a wide range of undergraduate and postgraduate programs  in Engineering, Technology and Business Management.
 
@@ -8,9 +8,16 @@ UOD wants to set up a database to record details about its Staff, and the depart
 
 We will be developing a system to manage the day-to-day activities of this university based on the below scenario.
 
-## Scenario
+## Scenario of university Staff and Student Management System
 
-An academic institute in your town wants to set up a database to record details about its staff, and the departments they belong to. They intend to record the following information. For each member of staff, their staff identity number, name, job title, and salary, for each department, its name and address, and for each member of staff, all departments that they belong to. It is required that every member of staff belongs to at least one department. For each department, there is a head of department. It is required that each department has exactly one head of department. Develop a system to manage the day-to-day business of this institute.
+**University of Databite has design a database for staff and student Management System**
+1. List of Staff, Student and Courses and the Department of thsoe belongs to consider for scenario.
+2. Record is contains staff following informations, Staff identity number, name, job title and salary, for each department. All members are belong to one department.
+3. Each department it has Head of Department.
+4. Each department has a unic course with unic cours ID, course name and department name.
+5. Students are enrol to the courses with their student ID, name, DOB and course enrol.
+
+This part of blog contains the creating a database to above requirnment to handle the day to day work and the result oriented data analysis system to the University.
 
 
 # What is an Entity Relationship Diagram
