@@ -105,22 +105,22 @@ Any association between two entity types is called a relationship. Entities take
 
 Considering Above Identification of Entities and Attributes inital Disgn phase Entity Realtionshio (ER) Diagram created as below.
 
-### Assamption Made for this  ER Diagram As Below 
+**Assamption Made for this  ER Diagram As Below**
 
 * Only Limited entities and attribute considered for the above scenario.
 * For the staf entity we used only Acadamic set of Staf.
 * The Department cordinator dirived as a from one of the staf.
 * In the Department considered Acadamic set of details.
 
-### Entity Realtionship Diagram of UOD databse
+**Entity Realtionship Diagram of UOD databse**
 
 ![Image](images/er.jpeg)
 
-## Actors involved in Database Management System UOD
+## Actors involved in Database Management System of UOD
 
-As University of DataBite we can express the Actors or database contributers are catogoriesed by 3 main topics. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a UOD staff maintaing Database.
+As University of DataBite we can express the Actors or database contributers are catogoriesed by 3 main topics. All countributers are very well train to specific tast they intendent to do or act within the Project scope in terms of design, use, and maintenance of a UOD staf maintaing Database.
 
-The Actors on the Scene is describe the list of people who engaged to success of UOD database, there jobs to involve the day-to-day use and development of Database.
+The Actors on the sytem is describe the list of people who engaged to success of UOD database, there jobs to involve the day-to-day use and development of Database.
 
 01. Database Administrators
 02. Database Designers
@@ -128,41 +128,53 @@ The Actors on the Scene is describe the list of people who engaged to success of
 
 **Database Administrators**
 
-* Administrating the primary (database) and secondary (DBMS and related software) is the responsibility of the database administrator (DBA). 
-* The DB Administrator is responsible for authorizing access to the database.
-* Coordinating and monitoring its use.
-* Acquiring software and hardware resources as needed.
+Data base administrator plying key roll of the University database from the development stage to maintanance stage. List of roll he play and the responsibilities are listed below.
 
+* Database administrator access can be have one or more in the university.
+* Main or administrative access of the UOD database is provided by the developer of the databse.
+* Adminsitrator can create the access or suthorizing to the users. For student or staff it has seperate user interface or limitaion depending on the desgin.
+* Overall University data access and the data modulation monitoring by administrator from the stuendt or staff end.
+* The need of software and hardware will be identify and requesting from the University management is a main responsibility of the adminsistrator.
 
-**Database Designers**
+**UOD Database Designer**
 
-* Database Designers are responsible for identifying the data to be stored in the database.
-* Choosing appropriate structures to represent and store this data.
-* Database designer typically interact with each potential group and users and develop a view of the database that meets the data and processing requirements of the project task
-
+* Creating a view of the database module as University need.
+* Providing the design interface and user capability to backend, frontend and developerend as University team request.
+* Developing Language, Structure of the system will be finalize as UOD verification
+* Consider the University request an verify the needs.
+* Data needed to store and intergrating will be done by the develeper as university request
 
 **End Users**
 
-* End users are the people whose jobs require access to the database for querying, updating and generating reports.
-* The database primarily exists for their use.
+* End users are the set of user of University data base, interms of loging student for detail modification and verification. 
+* Set of User who need to querying, updating and generating reports.
 
 **Types of end users involved with the project**
 
 **Casual end user:**
-Occasionally access the database, but they may need different information each time. They are typically middle-or high-level managers or other occasional browsers.
+*Typically middle-or high-level managers or other occasional staffs.
+*Occasionally access the database University Mangerial level staffs are come under this.
+*They may need different information each time, example: for analys purpose, identify additional need of lecturer for perticula course.
+
 
 **Naive or Parametric end user:**
-Their main job function revolves around constantly querying and updating the database, using standard types of queries and updates that have been carefully programmed and tested. Bank tellers, Reservation Clerks for airlines, hotels, etc are the example of Naive end users.
+
+*Their main job function revolves around constantly querying and updating the database.
+*They allowed to University staff and student feed back about the database.
+*Using standard types of queries relevent to University staff and student data and updates that have been carefully programmed and tested 
 
 **Sophisticated end users:**
-Sophisticated end users include engineers, scientist, business analyst and others who thoroughly familiarize themselves with the facilities of the DBMS so as to implement their applications to meet their complex requirements.
+
+*Sophisticated end users include University research induvidual, engineers and etc..
+*Provide good University user environment for quick access. 
+*Who thoroughly familiarize themselves with the facilities of the University database.
+*To implement their applications to meet university complex requirements.
 
 **Stand-alone users:**
-They maintain personal database by using ready-made program packages that provide easy-to-use menu or graphics-based interfaces.
 
-
-**Software Engineers:**
-System analysts determines the requirements of end users, especially naive and parametric end users, and develop specifications for canned transactions that meet these requirements.Application programmers implement these specifications as programs; then they test, debug, document, and maintain these canned transactions. Such analyst and programmers are called Software Engineers.
+*This is basic user of the University Database.
+*Student, Stafs are maint two catogaries in the our scenario.
+*Interface different by the user and accessability will be limited as university developer requirnment.
 
 # Programming with SQL
 
