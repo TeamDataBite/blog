@@ -98,8 +98,8 @@ Any association between two entity types is called a relationship. Entities take
 |----------------|----------------------------------------------------------------------|------------------------------|
 | Academic Staff | Staff identity number, name, job title, Department and salary        | Staff Belong to Departments  |
 | Department     | Department ID, Department Name, Department Location, Number of Staff | Departments belongs to staff |
-| Course         | Course Name, Course ID, Department, Staff Name                       | Student Enroll to course     |
-| Student        | Student No, Student Name, and date of birth. Course name             | Student under Departments    |
+| Course         | Course Name, Course ID, Department, Staff Name                       | department Has Course        |
+| Student        | Student No, Student Name, and date of birth. Course name             | Student Enrol to Course      |
 
 ## ER Diagram for above Scenario
 
